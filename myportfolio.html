@@ -297,12 +297,9 @@ section { padding: 100px 48px; position: relative; }
   display: flex; align-items: center; justify-content: center;
 }
 .about-avatar-big {
-  width: 160px; height: 160px;
+  width: 200px; height: 200px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Syne', sans-serif;
-  font-size: 52px; font-weight: 800; color: #fff;
+  object-fit: cover;
   position: relative;
 }
 .about-avatar-big::after {
@@ -821,7 +818,7 @@ footer .built {
       <div class="about-deco2"></div>
       <div class="about-card-main">
         <div>
-          <div class="about-avatar-big">PG</div>
+          <img class="about-avatar-big" src="phani.jpg" alt="Phanindra Varma Gunturi">
         </div>
         <div class="status-pill">
           <div class="status-dot"></div>
